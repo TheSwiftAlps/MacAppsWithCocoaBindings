@@ -684,13 +684,13 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
             </view>
         </window>
-        <arrayController id="yrI-7d-0jL"/>
+        <arrayController objectClassName="Schwarzenegger.SystemProcess" id="yrI-7d-0jL"/>
         <viewController id="SSh-eG-dql" customClass="TerminatorController" customModule="Schwarzenegger" customModuleProvider="target">
             <connections>
                 <outlet property="processesArrayController" destination="yrI-7d-0jL" id="KNW-uy-uH2"/>
